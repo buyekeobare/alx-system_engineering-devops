@@ -16,15 +16,15 @@
 
 > Each layer in the OSI model has a specific set of functions and responsibilities. They are organized from the lowest to the highest level, with each layer building upon the services provided by the layers below it.
 
-##### These layers include (from lowest to highest):
+### These layers include (from lowest to highest):
 
-	- Physical Layer
-	- Data link Layer
-	- Network Layer
-	- Tranport Layer
-	- Session Layer
-	- Presentation Layer
-	- Application Layer
+> - Physical Layer
+> - Data link Layer
+> - Network Layer
+> - Tranport Layer
+> - Session Layer
+> - Presentation Layer
+> - Application Layer
 
 ## LAN
 
@@ -48,11 +48,11 @@
 
 > An IP (Internet Protocol) address is a unique numerical label assigned to each device connected to a computer network. In simple terms, is to devices connected to a network what postal address is to houses. It serves as an identifier for that device, allowing it to communicate with other devices over the Internet. IP addresses are used to route data packets between different devices and networks. 
 
-##### There are two main versions of IP addresses in use today: IPv4 and IPv6.
+### There are two main versions of IP addresses in use today: IPv4 and IPv6.
 
-	- IPv4 (Internet Protocol version 4): This IP is the most widely used version of IP addresses. It has four sets of numbers, separated by periods (e.g., 192.168.0.1). Each set can range from 0 to 255, providing a total of approximately 4.3 billion unique addresses. However, the availability of IPv4 address is becoming limited due to the growing number of connected devices to the Internet.
+- IPv4 (Internet Protocol version 4): This IP is the most widely used version of IP addresses. It has four sets of numbers, separated by periods (e.g., 192.168.0.1). Each set can range from 0 to 255, providing a total of approximately 4.3 billion unique addresses. However, the availability of IPv4 address is becoming limited due to the growing number of connected devices to the Internet.
 
-	- IPv6 (Internet Protocol version 6): IPv6 was developed to address the limitations of IPv4 and provide a larger address space. It has eight groups of four hexadecimal digits, separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). This gives room to a significantly larger number of unique addresses, ensuring that the increasing number of devices can be connected to the Internet.
+- IPv6 (Internet Protocol version 6): IPv6 was developed to address the limitations of IPv4 and provide a larger address space. It has eight groups of four hexadecimal digits, separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). This gives room to a significantly larger number of unique addresses, ensuring that the increasing number of devices can be connected to the Internet.
 
 ## TCP/UDP
 
