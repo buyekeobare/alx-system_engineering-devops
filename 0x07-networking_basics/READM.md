@@ -1,6 +1,7 @@
 # 0x07.Networking Basic #0
 
 ## Learning objectives
+- At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 > 1. OSI MODEL
 > 2. What is LAN
@@ -79,3 +80,14 @@
 ## Tool/protocol to check device connectivity
 
 > A commonly used tool/protocol to check if a device is connected to a network is the ICMP (Internet Control Message Protocol) Echo Request/Echo Reply, which is commonly known as "ping." By sending an ICMP Echo Request packet to a device's IP address, you can determine if the device is reachable and responsive. If the device is connected and functioning properly, it will send an ICMP Echo Reply packet back to the sender.
+
+## Tasks for this Project:
+
+> 0. OSI model
+> 1. Types of network
+> 2. MAC and IP address
+> 3. UDP and TCP
+> 4. A script that displays listening sockets, shows the PID and name of the program to which each socket belongs.
+> 5. A script that pings an IP address passed as an argument, accepts a string as an argument, pings the IP 5 times and displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
+
+
