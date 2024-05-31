@@ -1,5 +1,7 @@
 # THE WEB INFRASTRUCTURE PROJECT
 
+Project in partnership with Charles Ubom, Emmanuel Danso.
+
 ## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
