@@ -1,10 +1,16 @@
 #!/usr/bin/env bash
 # Automation of nginx configuration
 
+# Update package lists
 sudo apt-get update
+
+# Install nginx if not already installed
 sudo apt-get -y install nginx
 
-# add the custom header
-sudo sed -i "/http {/a\         add_header X-Served-By $HOSTNAME;" /etc/nginx/nginx.conf
+# Add the custom header
+# We use double quotes for the sed command, so we need to escape the `$HOSTNAME` variable properly
+sudo sed -i "/http {/a\\\tadd_header X-Served-By \$HOSTNAME;" /etc/nginx/nginx.conf
 
+# Restart nginx to apply changes
 sudo service nginx restart
+
