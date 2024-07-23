@@ -1,17 +1,18 @@
-# Install flask from pip3 using puppet
+# Install Flask from pip3 using Puppet
 
-package {'python3.8':
-  ensure   => '3.8.10',
-  provider => 'pip3',
+package { 'python3-pip':
+  ensure   => installed,
+  provider => 'apt',
 }
 
-package {'Flask',
+package { 'Flask':
   ensure   => '2.1.0',
   provider => 'pip3',
+  require  => Package['python3-pip'],
 }
 
-package {'Werkzeug',
-  ensure   => '2.1.1',
+package { 'Werkzeug':
+  ensure   => '2.0.3',
   provider => 'pip3',
   require  => Package['Flask'],
 }
