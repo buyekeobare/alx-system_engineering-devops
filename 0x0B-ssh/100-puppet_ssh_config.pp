@@ -1,4 +1,6 @@
+#!/usr/bin/puppet
 # Using puppet to make changes to the default ssh config file
+
 include stdlib
 
 file_line { 'Turn off passwd auth':
