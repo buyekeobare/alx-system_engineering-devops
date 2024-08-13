@@ -8,7 +8,7 @@ def number_of_subscribers(subreddit):
     """Queries a subreddit and retrieves no. of subscribers"""
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
     headers = {
-        'User-Agent': 'MyRedditApp/1.0 (by /u/buyekeobare)'
+        'User-Agent': 'My user Agent 1.0'
     }
 
  response = requests.get(url, headers=headers, allow_redirects=False)
