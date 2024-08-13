@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""Querying Reddit"""
+"""Quering Reddit"""
 
 import requests
 
 
 def number_of_subscribers(subreddit):
-    """Queries a subreddit and retrieves no. of subscribers"""
+    """query a subreddit and retrive no of subscribers"""
 
-     # Reddit API endpoint for getting subreddit informatiom
+    # Reddit API endpoint for getting subreddit informatiom
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
 
     # Set a custom User-Agent to avoid too many requests error
