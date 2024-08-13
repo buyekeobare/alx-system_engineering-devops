@@ -5,7 +5,7 @@ import requests
 
 
 def number_of_subscribers(subreddit):
-    """queries a subreddit and retrives no of subscribers"""
+    """query a subreddit and retrive no of subscribers"""
 
     # Reddit API endpoint for getting subreddit informatiom
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
