@@ -6,7 +6,10 @@ import requests
 
 
 def recurse(subreddit, hot_list=[], after=None):
-     """Returns a list of titles of all hot posts on a given subreddit."""
+     """ Queries the Reddit API and returns a list of titles of all hot posts
+    for a given subreddit. If the subreddit is invalid, returns None.
+    """
+
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {
         "User-Agent": "0x16-api_advanced:project:\
