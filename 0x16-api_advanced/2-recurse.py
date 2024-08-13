@@ -8,17 +8,12 @@ import requests
 def recurse(subreddit, hot_list=[], after=None):
     """
     Queries the Reddit API and returns a list of titles of all hot posts
-    for a given subreddit. If the subreddit is invalid, returns None.
-
-    :param subreddit: the name of the subreddit
-    :param hot_list: list to accumulate hot post titles
-    :param after: the next page token for pagination
-    :return: list of hot post titles or None if invalid subreddit
+    for a given subreddit. If the subreddit is invalid, returns None
     """
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {
         "User-Agent": "0x16-api_advanced:project:\
-v1.0.0 (by /u/firdaus_cartoon_jr)"
+v1.0.0"
     }
     params = {
         "after": after,
