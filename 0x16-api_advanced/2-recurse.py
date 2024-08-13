@@ -1,19 +1,19 @@
 #!/usr/bin/python3
 """
-Contains the recurse function
+Contains the recursive function
 """
 import requests
 
 
 def recurse(subreddit, hot_list=[], after=None):
     """
-    Queries the Reddit API and returns a list of titles of all hot posts
-    for a given subreddit. If the subreddit is invalid, returns None
+    Queries the Reddit API and returns a list containing the titles 
+    of all hot articles for a given subreddit. 
+    If no results are found for the given subreddit, it returns None
     """
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {
-        "User-Agent": "0x16-api_advanced:project:\
-v1.0.0"
+        "User-Agent": "project:0x16-api_advanced:v1.0.0"
     }
     params = {
         "after": after,
