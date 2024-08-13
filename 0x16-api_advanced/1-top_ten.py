@@ -1,11 +1,11 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 """Querying subreddit"""
 
 import requests
 
 
 def top_ten(subreddit):
-    """Query Reddit and print titles of the first 10 hot posts"""
+    """Queries Reddit and prints titles of the first 10 hot posts"""
 
     url = f"https://www.reddit.com/r/{subreddit}/hot.json"
 
