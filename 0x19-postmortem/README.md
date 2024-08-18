@@ -33,3 +33,5 @@ Conduct regular audits of critical infrastructure components to identify and add
 Conduct a comprehensive review of load balancer configurations and implement standardized templates to prevent misconfigurations.
 Develop and implement automated tests to validate load balancer configurations against predefined criteria before deployment.
 Enhance internal documentation and training materials to educate team members on best practices for load balancer management.
+
+![img](https://www.edureka.co/blog/wp-content/uploads/2019/08/debuuging-steps-528x294.png)
